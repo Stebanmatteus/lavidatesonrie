@@ -1,0 +1,27 @@
+#pluginAppObj_12 .cd-headline {
+	display: block;
+	font-family: 'Tahoma';
+	font-size: 18px;
+	line-height: 26px;
+	color: rgba(0, 48, 191, 1);
+	font-style: normal;
+	font-weight: normal;
+}
+
+#pluginAppObj_12 .cd-headline b,
+#pluginAppObj_12 .cd-headline i,
+#pluginAppObj_12 .cd-headline em {
+	
+	font-family: 'Tahoma';
+	font-size: 18px;
+	line-height: 26px;
+	color: rgba(0, 48, 191, 1);
+	font-style: normal !important;
+	font-weight: normal;
+}
+
+/* Loading bar color */
+#pluginAppObj_12 .cd-headline.loading-bar .cd-words-wrapper::after {
+	background-color: rgba(0, 48, 191, 1);
+}
+
